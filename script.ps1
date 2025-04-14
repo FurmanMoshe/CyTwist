@@ -2,7 +2,7 @@
 Write-Host "This script is running automatically via the internet." -ForegroundColor Green
 
 # כתובת האתר שתרצה להעתיק
-$websiteUrl = "http://example.com/script.ps1"
+$websiteUrl = "https://raw.githubusercontent.com/FurmanMoshe/CyTwist/refs/heads/main/script.ps1"
 
 # העתקת הכתובת לזיכרון
 Set-Clipboard -Value $websiteUrl
