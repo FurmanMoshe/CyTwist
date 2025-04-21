@@ -1,1 +1,3 @@
-msgbox now()
+sub main()
+  msgbox now()
+end sub
